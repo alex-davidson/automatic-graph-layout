@@ -5,6 +5,7 @@
     <NuspecFile>AutomaticGraphLayout.Drawing.nuspec</NuspecFile>
     <AssemblyName>Microsoft.Msagl.Drawing</AssemblyName>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 

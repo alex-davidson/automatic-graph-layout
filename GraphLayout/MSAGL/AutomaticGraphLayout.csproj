@@ -5,6 +5,7 @@
     <NuspecFile>AutomaticGraphLayout.nuspec</NuspecFile>
     <AssemblyName>Microsoft.Msagl</AssemblyName>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release'">

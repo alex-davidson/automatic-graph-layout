@@ -1,9 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFrameworks>net472;net6.0-windows;net7.0-windows</TargetFrameworks>
+    <TargetFrameworks>net472;net6.0-windows7.0;net7.0-windows7.0</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <AssemblyName>Microsoft.Msagl.WpfGraphControl</AssemblyName>
+    <NuspecFile>WpfGraphControl.nuspec</NuspecFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
