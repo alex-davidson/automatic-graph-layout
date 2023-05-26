@@ -1,7 +1,7 @@
 ﻿<package>
   <metadata>
     <id>Microsoft.Msagl.Drawing</id>
-    <version>0.1.6</version>
+    <version>0.1.7</version>
     <authors>Microsoft</authors>
     <owners>Microsoft</owners>
     <license type="expression">MIT</license>
@@ -14,7 +14,7 @@
     <language>en-US</language>
     <tags>MSAGL Graph Layout</tags>
     <dependencies>
-      <dependency id="Microsoft.Msagl" version="1.1.6" />
+      <dependency id="Microsoft.Msagl" version="0.1.7" />
     </dependencies>
   </metadata>
   <files>
