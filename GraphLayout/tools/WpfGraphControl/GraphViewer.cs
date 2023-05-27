@@ -1314,6 +1314,8 @@ namespace Microsoft.Msagl.WpfGraphControl {
         private bool createToolTipForNodes = false;
 
         public static Size MeasureText(string text, FontFamily family, double size, Visual visual = null) {
+            if (visual is FrameworkElement element) return new Size(element.Width, element.Height);
+
             FormattedText formattedText = new FormattedText(
                 text,
                 System.Globalization.CultureInfo.CurrentCulture,
