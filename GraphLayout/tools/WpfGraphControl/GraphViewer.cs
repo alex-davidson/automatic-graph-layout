@@ -1224,8 +1224,9 @@ namespace Microsoft.Msagl.WpfGraphControl {
                     };
                 }
 
-                cluster.RectangularBoundary.TopMargin =
-                    subgraph.DiameterOfOpenCollapseButton + 0.5 + subgraph.Attr.LineWidth/2;
+                cluster.RectangularBoundary.TopMargin = Math.Max(
+                    cluster.RectangularBoundary.TopMargin,
+                    subgraph.DiameterOfOpenCollapseButton + 0.5 + subgraph.Attr.LineWidth/2);
 
                 //AssignLabelWidthHeight(msaglNode, msaglNode.UserData as DrawingObject);
             }

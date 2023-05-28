@@ -186,8 +186,7 @@ namespace Microsoft.Msagl.WpfGraphControl {
         }
 
         double GetCollapseBorderSymbolSize() {
-            return ((Cluster) _subgraph.GeometryNode).RectangularBoundary.TopMargin -
-                   PathStrokeThickness/2 - 0.5;
+            return _subgraph.DiameterOfOpenCollapseButton - PathStrokeThickness/2 - 0.5;
         }
 
         Point GetCollapseButtonCenter(double collapseBorderSize) {
